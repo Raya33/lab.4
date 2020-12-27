@@ -17,8 +17,23 @@ if (answer === 'yes') {
 else if (answer === 'no') {
     alert('this is not your place');
 }
-     var photo = "img src=https://s3.amazonaws.com/cdn.brecks.com/images/800/75696.jpg"
-     var photoloop = prompt('write down number from 1-5')
-for (photoloop < 0; photoloop>=5; ){photo}
 
-    document.write("<img src ='https://s3.amazonaws.com/cdn.brecks.com/images/800/75696.jpg'>");
+ roses = prompt('write down number from 1-5')
+for (var i= 1 ; i<=roses;i++){
+    
+document.write("<img src ='https://s3.amazonaws.com/cdn.brecks.com/images/800/75696.jpg'>");
+
+}
+
+
+
+
+   
+       
+function takeUserInput(message) {
+    return prompt(message);
+}
+
+function displaycustomizedmessage(RName) {
+    alert('hello' + Enter + '.you welcom to our store');
+}

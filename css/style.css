@@ -1,0 +1,14 @@
+.main-list{
+color: blueviolet; background-color: black;
+}
+
+
+
+.header-list{
+    display: inline-block;
+    border:3px solid black;
+    padding: 3px;
+    margin: 7px;
+    background-color: rgb(100, 210, 237);
+    
+}
